@@ -932,6 +932,16 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "debt",
+    type: "sb.",
+    translations: ["gæld, -en"],
+    keywords: ["software engineering"],
+    phrases: [
+      [
+        "technical debt", "teknisk gæld"
+      ]
+  },
+  {
     word: "debugger",
     type: "sb.",
     translations: ["fejlfinder, -en, -e, -ne"],
