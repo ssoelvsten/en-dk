@@ -26,20 +26,19 @@
       background-color: white;
       border: double;
       border-radius: 50%;
+      color: black;
 
       width: 2.4rem;
       height: 2.4rem;
     }
 
     /* Icon */
-    & {
-      color: black;
-      font-size: 1.4rem;
-
-      .Icon {
-        text-align: center;
-        display: block;
-      }
+    .Icon {
+      display: block;
+      max-width: 1.2rem;
+      height: auto;
+      text-align: center;
+       margin: auto;
     }
 
     /* Hover Animation */

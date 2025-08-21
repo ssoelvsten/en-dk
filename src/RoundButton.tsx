@@ -3,23 +3,15 @@ import './RoundButton.scss';
 
 interface RoundButtonProps {
   onClick: () => void;
-  emoji: string;
-  emojiRotate?: number;
+  icon: any;
   title: string;
 };
 
-const RoundButton = ({ onClick, emoji, emojiRotate, title }: RoundButtonProps) =>
+const RoundButton = ({ onClick, icon, title }: RoundButtonProps) =>
   <div className="RoundButton">
     <span className="Title">{title}</span>
     <button className="Button" onClick={onClick}>
-        <span className="Icon"
-            style={{
-                transform: `rotate(${emojiRotate ? emojiRotate : 0}deg)`,
-                paddingBottom: emojiRotate && emojiRotate % 90 === 0 ? `0.25rem` : 0
-            }}
-        >
-        {emoji}
-        </span>
+      <img class="Icon" src={icon} alt="" />
     </button>
   </div>;
 
