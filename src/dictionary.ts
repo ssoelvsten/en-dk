@@ -937,7 +937,6 @@ export const en_dk : Lexeme[] = [
     translations: ["gæld, -en"],
     keywords: ["software engineering"],
     phrases: [
-      [
         "technical debt", "teknisk gæld"
       ]
   },
@@ -1409,7 +1408,7 @@ export const en_dk : Lexeme[] = [
     translations: ["global, -t, -e"],
     keywords: ["computer science", "software engineering"]
   },
-    {
+  {
     word: "gradual",
     type: "adj.",
     translations: ["gradvis, -t, -e"],
