@@ -1409,6 +1409,15 @@ export const en_dk : Lexeme[] = [
     translations: ["global, -t, -e"],
     keywords: ["computer science", "software engineering"]
   },
+    {
+    word: "gradual",
+    type: "adj.",
+    translations: ["gradvis, -t, -e"],
+    keywords: ["computer science"],
+    phrases: [
+      ["a gradual type system", "et gradvist typesystem"]
+    ]
+  },
   {
     word: "grammar",
     type: "sb.",
