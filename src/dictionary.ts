@@ -1428,7 +1428,7 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
-    word: "graphicscard",
+    word: "graphics card",
     type: "sb.",
     translations: [
       "grafikkort, -et, -, -ene",
