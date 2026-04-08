@@ -212,6 +212,13 @@ export const en_dk : Lexeme[] = [
     keywords: []
   },
   {
+    word: "artificial intelligence",
+    type: "sb.",
+    note: "AI",
+    translations: ["kunstig intelligens (KI)"],
+    keywords: ["computer science"]
+  },
+  {
     word: "associative",
     type: "adj.",
     translations: ["assiociativ, -t, -e"],
@@ -1207,6 +1214,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["typography"]
   },
   {
+    word: "embedding",
+    type: "sb.",
+    translations: ["indlejring, -en, -er, -erne"],
+    keywords: ["computer science", "mathematics"]
+  },
+  {
     word: "empty",
     type: "adj.",
     translations: ["tom, -t, -me"],
@@ -1780,6 +1793,12 @@ export const en_dk : Lexeme[] = [
     word: "language",
     type: "sb.",
     translations: ["sprog, -et, -, -ene"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "language model",
+    type: "sb.",
+    translations: ["sprogmodel, -en, -er, -erne"],
     keywords: ["computer science"]
   },
   {
