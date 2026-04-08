@@ -41,6 +41,15 @@ export const en_dk : Lexeme[] = [
     keywords: []
   },
   {
+    word: "abstraction",
+    type: "sb.",
+    translations: ["abstraktion, -en, -er, -erne"],
+    keywords: [],
+    phrases: [
+      ["abstraction mechanism", "abstraktionsmiddel"]
+    ]
+  },
+  {
     word: "accept",
     type: "vb.",
     translations: ["acceptere, -r, -de, -t"],
@@ -70,6 +79,12 @@ export const en_dk : Lexeme[] = [
     word: "accepting state",
     type: "sb.",
     translations: ["accepttilstand, -en, -e, -ene"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "active",
+    type: "adj.",
+    translations: ["aktiv, -t, -e"],
     keywords: ["computer science"]
   },
   {
@@ -491,6 +506,21 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science", "mathematics"]
   },
   {
+    word: "call",
+    type: "sb.",
+    translations: ["kald, -et, -, -ene"],
+    keywords: ["computer science", "mathematics"],
+    phrases: [
+      ["a function call", "et funktionskald"]
+    ]
+  },
+  {
+    word: "call",
+    type: "vb.",
+    translations: ["kal|de, -der, -dede, -dt"],
+    keywords: ["computer science", "mathematics"]
+  },
+  {
     word: "canonical",
     type: "adj.",
     translations: ["kanonisk, -, -e"],
@@ -574,7 +604,7 @@ export const en_dk : Lexeme[] = [
     word: "class",
     type: "sb.",
     translations: ["klasse, -n, -r, -rne"],
-    keywords: ["mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "clipboard",
@@ -615,6 +645,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["medforfatter, -en, -e, -ne"],
     keywords: []
+  },
+  {
+    word: "code",
+    type: "sb.",
+    translations: ["kode, -n, -r, -rne"],
+    keywords: ["computer science"]
   },
   {
     word: "collision",
@@ -1195,10 +1231,10 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
-    word: "execute",
-    type: "vb.",
-    translations: ["eksekvere, -r, -de, -t"],
-    keywords: ["computer science", "software engineering"]
+    word: "efficient",
+    type: "adj.",
+    translations: ["effektiv, -t, -e"],
+    keywords: []
   },
   {
     word: "edge",
@@ -1206,6 +1242,21 @@ export const en_dk : Lexeme[] = [
     note: "also : \"arc\"",
     translations: ["kant, -en, -er, -erne"],
     keywords: ["computer science"]
+  },
+  {
+    word: "effect",
+    type: "sb.",
+    translations: ["effekt, -en, -er, -erne"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "effectful",
+    type: "sb.",
+    translations: ["effektfuld, -t, -e"],
+    keywords: ["computer science"],
+    phrases: [
+      ["an effectful function", "en funktion med effekter"],
+    ]
   },
   {
     word: "ellipsis",
@@ -1268,6 +1319,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science", "mathematics"]
   },
   {
+    word: "ergonomic",
+    type: "adj.",
+    translations: ["ergonomisk, -t, -e"],
+    keywords: ["computer science", "software engineering"]
+  },
+  {
+    word: "ergonomics",
+    type: "sb.",
+    translations: ["ergonomi, -en"],
+    keywords: ["computer science", "software engineering"]
+  },
+  {
     word: "error",
     type: "sb.",
     translations: ["fejl, -en, -, -ene"],
@@ -1302,12 +1365,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["typography"]
   },
   {
+    word: "execute",
+    type: "vb.",
+    translations: ["eksekvere, -r, -de, -t"],
+    keywords: ["computer science", "software engineering"]
+  },
+  {
     word: "expected",
     type: "adj.",
     translations: ["forven|tet, -tet, -tede"],
     keywords: ["computer science", "mathematics"],
     phrases: [
-      ["The worst case expected running time is O(n lg n)", "Den værst tænkelige forventede kørselstid er O(n lg n)"],
+      ["The worst case expected running time is O(n lg n)", "Den værst tænkelig forventede kørselstid er O(n lg n)"],
       ["Its expected value is 0.5", "Dens forventede værdi er 0,5"]
     ]
   },
@@ -1536,6 +1605,21 @@ export const en_dk : Lexeme[] = [
     keywords: ["typography"]
   },
   {
+    word: "identify",
+    type: "vb.",
+    translations: ["identificere, -r, -de, -t"],
+    keywords: []
+  },
+  {
+    word: "identity",
+    type: "sb.",
+    translations: ["identitet, -en, -er, -erne"],
+    keywords: [],
+    phrases: [
+      ["the identity function", "identitetsfunktionen"]
+    ]
+  },
+  {
     word: "iff",
     note: "abr. \"if and only if\"",
     translations: ["hviss (hvis og kun hvis)"],
@@ -1574,6 +1658,12 @@ export const en_dk : Lexeme[] = [
       "uforanderlig, -t, -e"
     ],
     keywords: ["computer science", "software engineering"]
+  },
+  {
+    word: "inactive",
+    type: "adj.",
+    translations: ["ikke aktiv, -t, -e"],
+    keywords: ["computer science"]
   },
   {
     word: "incidence matrix",
@@ -1639,6 +1729,18 @@ export const en_dk : Lexeme[] = [
     word: "informal",
     type: "sb.",
     translations: ["uformel, -t, -e"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "information",
+    type: "sb.",
+    translations: ["information, -en, -er, -erne"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "information flow",
+    type: "sb.",
+    translations: ["informationsstrøm, -men, -me, -mene"],
     keywords: ["computer science"]
   },
   {
@@ -1948,6 +2050,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "maintain",
+    type: "vb.",
+    translations: ["vedligehol|de, -der, -dede, -dt"],
+    keywords: []
+  },
+  {
+    word: "maintainable",
+    type: "adj.",
+    translations: ["vedligeholdelsesvenlig, -t, -e"],
+    keywords: []
+  },
+  {
     word: "Markov chain",
     type: "sb.",
     translations: ["markovkæde, -n, -r, -rne"],
@@ -2045,6 +2159,24 @@ export const en_dk : Lexeme[] = [
     word: "monadic",
     type: "adj.",
     translations: ["monadisk, -, -e"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "monomorphization",
+    type: "sb.",
+    translations: ["monomorfisering, -en, -er, -erne"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "monomorphize",
+    type: "vb.",
+    translations: ["monomorfisere, -r, -de, -t"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "monomorphized",
+    type: "adj.",
+    translations: ["monomorfise|ret, -ret, -rede"],
     keywords: ["computer science"]
   },
   {
@@ -2274,6 +2406,12 @@ export const en_dk : Lexeme[] = [
       "partitionering, -en, -er, -erne"
     ],
     keywords: ["computer science", "mathematics"]
+  },
+  {
+    word: "passiv",
+    type: "adj.",
+    translations: ["passiv, -t, -e"],
+    keywords: ["computer science"]
   },
   {
     word: "path",
@@ -2730,6 +2868,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "reduce",
+    type: "vb.",
+    translations: ["reducere, -r, -de, -t"],
+    keywords: []
+  },
+  {
     word: "reduction",
     type: "sb.",
     translations: ["reduktion, -en, -er, -erne"],
@@ -2817,6 +2961,18 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["repositorium, -et, -er, -erne"],
     keywords: ["git"]
+  },
+  {
+    word: "restrict",
+    type: "vb.",
+    translations: ["begrænse, -r, -de, -t"],
+    keywords: ["computer science", "mathematics"]
+  },
+  {
+    word: "restrictable",
+    type: "adj.",
+    translations: ["begræn|set, -set, -sede"],
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "rho",
@@ -3097,6 +3253,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "sum type",
+    type: "sb.",
+    translations: ["sumtype, -n, -r, -rne"],
+    keywords: ["computer science"]
+  },
+  {
     word: "supervised learning",
     type: "sb.",
     translations: ["overvåget læring"],
@@ -3191,6 +3353,30 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "technique",
+    type: "sb.",
+    translations: ["teknik, -en, -er, -erne"],
+    keywords: []
+  },
+  {
+    word: "technical",
+    type: "adj.",
+    translations: ["teknisk, -, -e"],
+    keywords: []
+  },
+  {
+    word: "technological",
+    type: "adj.",
+    translations: ["teknologisk, -, -e"],
+    keywords: []
+  },
+  {
+    word: "technology",
+    type: "sb.",
+    translations: ["teknologi, -en, -er, -erne"],
+    keywords: []
+  },
+  {
     word: "ternary",
     type: "sb.",
     translations: ["trinær"],
@@ -3199,6 +3385,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "terminal",
     type: "sb.",
+    note: "also \"console\"",
     translations: ["terminal, -en, -er, -erne"],
     keywords: ["computer science"]
   },
@@ -3361,6 +3548,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "type flow",
+    type: "sb.",
+    translations: ["typestrøm, -men, -me, -mene"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "type system",
+    type: "sb.",
+    translations: ["typesystem, -et, -er, -erne"],
+    keywords: ["computer science"]
+  },
+  {
     word: "type theory",
     type: "sb.",
     translations: ["typeteori, -n, -r, -erne"],
@@ -3475,6 +3674,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "variant",
+    type: "sb.",
+    translations: ["variant, -en, -er, -erne"],
+    keywords: ["computer science"]
+  },
+  {
     word: "vector",
     type: "sb.",
     translations: ["vektor, -en, -er, -erne"],
@@ -3538,7 +3743,7 @@ export const en_dk : Lexeme[] = [
     translations: ["værst tænkelig, -t, -e"],
     keywords: ["computer science"],
     phrases: [
-      ["The worst case running time is O(n²)", "Den værst tænkelige kørseltsid er O(n²)"]
+      ["The worst case running time is O(n²)", "Den værst tænkelig kørselstid er O(n²)"]
     ]
   },
   {
