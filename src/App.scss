@@ -1,4 +1,5 @@
-@use 'style.scss';
+@use 'sass:color';
+@use './style.scss';
 
 .App {
   background-color: style.$background-color;
@@ -61,4 +62,9 @@
     align-items: end;
     gap: 0.5rem;
   }
+}
+
+.App.DarkMode {
+  background-color: color.invert(style.$background-color);
+  color: color.invert(style.$color)
 }

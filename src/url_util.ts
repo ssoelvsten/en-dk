@@ -1,4 +1,4 @@
-export type Params = 'search' | 'category';
+export type Params = 'dark' | 'search' | 'category';
 
 export function GetURL(): string {
   return window.location.href;
