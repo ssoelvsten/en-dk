@@ -1,6 +1,8 @@
+@use 'sass:color';
 @use '../style.scss';
 
 .RoundButton {
+
   /* Hover Help Text */
   .Title {
     display: inline-block;
@@ -11,6 +13,7 @@
     text-align: right;
     font-size: 1rem;
     user-select: none;
+    color: style.$color;
 
     opacity: 0;
     transition: 0.2s;
@@ -26,15 +29,13 @@
   .Button {
 
     /* Style */
-    & {
-      background-color: style.$background-color;
-      border: double;
-      border-radius: 50%;
-      color: style.$color;
+    background-color: style.$background-color;
+    border: double;
+    border-radius: 50%;
+    color: style.$color;
 
-      width: 2.4rem;
-      height: 2.4rem;
-    }
+    width: 2.4rem;
+    height: 2.4rem;
 
     /* Icon */
     .Icon {
@@ -46,20 +47,31 @@
     }
 
     /* Hover Animation */
-    & {
-      opacity: 0.5;
-      transition: 0.2s;
+    opacity: 0.5;
+    transition: 0.2s;
 
-      &:hover {
-        opacity: 1.0;
-        transition: 0.2s;
-        cursor: pointer;
-      }
+    &:hover {
+      opacity: 1.0;
+      transition: 0.2s;
+      cursor: pointer;
     }
   }
 
   /* Hide on Print */
   @media print {
     display: none !important;
+  }
+}
+
+.DarkMode .RoundButton {
+  color: color.invert(style.$color);
+
+  .Button {
+    background-color: color.invert(style.$background-color);
+    color: color.invert(style.$color);
+
+    .Icon {
+      filter: invert(1);
+    }
   }
 }
