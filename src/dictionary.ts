@@ -937,7 +937,7 @@ export const en_dk : Lexeme[] = [
     translations: ["gæld, -en"],
     keywords: ["software engineering"],
     phrases: [
-        "technical debt", "teknisk gæld"
+        ["technical debt", "teknisk gæld"]
       ]
   },
   {
