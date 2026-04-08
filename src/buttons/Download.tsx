@@ -1,7 +1,7 @@
 import React from 'react';
-import { Lexeme } from './dictionary';
+import { Lexeme } from '../dictionary';
 import RoundButton from './RoundButton';
-import DownloadSvg from './svg/download.svg'
+import DownloadSvg from '../svg/download.svg'
 
 // -----------------------------------------------------------------------------------------------
 
@@ -55,6 +55,6 @@ interface DownloadProps {
 };
 
 const Download = ({ lexemes }: DownloadProps) =>
-  <RoundButton onClick={() => tsv(lexemes)} icon={DownloadSvg} title='download tsv'/>
+  <RoundButton onClick={() => tsv(lexemes)} icon={DownloadSvg} title='download tsv' />
 
 export default Download;
