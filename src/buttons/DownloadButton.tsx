@@ -54,7 +54,7 @@ interface DownloadProps {
   lexemes: Lexeme[]
 };
 
-const Download = ({ lexemes }: DownloadProps) =>
+const DownloadButton = ({ lexemes }: DownloadProps) =>
   <RoundButton onClick={() => tsv(lexemes)} icon={DownloadSvg} title='download tsv' />
 
-export default Download;
+export default DownloadButton;
