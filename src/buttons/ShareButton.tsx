@@ -3,9 +3,9 @@ import RoundButton from './RoundButton';
 import { GetURL } from '../url_util';
 import ShareSvg from '../svg/share.svg'
 
-const Share = () =>
+const ShareButton = () =>
   <RoundButton onClick={() => navigator.clipboard.writeText(GetURL())}
     icon={ShareSvg}
     title='copy url to clipboard' />
 
-export default Share;
+export default ShareButton;

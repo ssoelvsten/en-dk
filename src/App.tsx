@@ -5,8 +5,8 @@ import Filter, { FilterDefault } from './Filter.tsx';
 import Lexeme from './Lexeme.tsx';
 
 import * as Dictionary from './dictionary.ts';
-import Download from './buttons/Download.tsx';
-import Share from './buttons/Share.tsx';
+import DownloadButton from './buttons/DownloadButton.tsx';
+import ShareButton from './buttons/ShareButton.tsx';
 
 const App = () => {
   const [filterCtxt, setFilterCtxt] = useState(FilterDefault);
@@ -29,8 +29,8 @@ const App = () => {
       </div>
 
       <div className="Buttons">
-        <Share />
-        <Download lexemes={lexemes} />
+        <ShareButton />
+        <DownloadButton lexemes={lexemes} />
       </div>
     </div>
   );
