@@ -521,6 +521,13 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science", "mathematics"]
   },
   {
+    word: "camel case",
+    type: "sb.",
+    note: "camalCase, PascalCase",
+    translations: ["kameltype, -n, -r, -rne"],
+    keywords: ["computer science", "software engineering", "typography"]
+  },
+  {
     word: "canonical",
     type: "adj.",
     translations: ["kanonisk, -, -e"],
@@ -1875,6 +1882,13 @@ export const en_dk : Lexeme[] = [
     keywords: ["greek alphabet"]
   },
   {
+    word: "kebab case",
+    type: "sb.",
+    note: "kebab-case",
+    translations: ["kebabtype, -n, -r, -rne"],
+    keywords: ["computer science", "software engineering", "typography"]
+  },
+  {
     word: "key",
     type: "sb.",
     translations: ["nøgle, -n, -r, -rne"],
@@ -3143,6 +3157,13 @@ export const en_dk : Lexeme[] = [
       "afløb, -et, -, -ene"
     ],
     keywords: ["computer science"]
+  },
+  {
+    word: "snake case",
+    type: "sb.",
+    note: "snake_case",
+    translations: ["slangetype, -n, -r, -rne"],
+    keywords: ["computer science", "software engineering", "typography"]
   },
   {
     word: "sound",
