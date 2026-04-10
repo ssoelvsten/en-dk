@@ -24,7 +24,7 @@
       flex-flow: column;
     }
 
-    /* Fix width of input and select are not fixed (Follow-up on #34) */
+    /* Fix width of input and select on almost Tiny screens (Issue #39) */
     @media screen and (min-width: style.$tiny) {
       max-width: 42rem;
 
