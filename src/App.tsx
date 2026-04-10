@@ -5,6 +5,7 @@ import Filter, { FilterDefault } from './Filter.tsx';
 import Lexeme from './Lexeme.tsx';
 
 import DownloadButton from './buttons/DownloadButton.tsx';
+import PrintButton from './buttons/PrintButton.tsx';
 import ShareButton from './buttons/ShareButton.tsx';
 
 import { GetLSParam, SetLSParam } from './ls_util.ts';
@@ -57,6 +58,7 @@ const App = () => {
 
       <div className="Buttons">
         <ShareButton />
+        <PrintButton />
         <DownloadButton lexemes={lexemes} />
       </div>
     </div>
