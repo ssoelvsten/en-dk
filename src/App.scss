@@ -1,4 +1,15 @@
+@use 'style.scss';
+
 .App {
+  background-color: style.$background-color;
+  color: style.$color;
+
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+
+  overflow: scroll;
+
   /* Space for Filter at top */
   & {
     padding: 2rem;
@@ -8,16 +19,10 @@
     }
 
     /* Fix for Tiny Screens (Issue #34) */
-    @media screen and (max-width: 25rem) {
+    @media screen and (max-width: style.$tiny) {
       padding: 1.2rem;
       padding-top: 7rem;
     }
-  }
-
-  /* Margins */
-  & {
-    max-width: 64rem;
-    margin: auto;
   }
 
   /* Columns */
@@ -27,11 +32,15 @@
     column-gap: 2rem;
     column-fill: balance;
 
-    @media screen and (max-width: 55rem) {
+    max-width: style.$large;
+    margin: auto;
+    min-height: 100%;
+
+    @media screen and (max-width: style.$medium) {
       column-count: 2;
     }
 
-    @media screen and (max-width: 42rem) {
+    @media screen and (max-width: style.$small) {
       column-count: 1;
     }
 

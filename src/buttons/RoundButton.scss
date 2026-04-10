@@ -1,3 +1,5 @@
+@use '../style.scss';
+
 .RoundButton {
   /* Hover Help Text */
   .Title {
@@ -14,6 +16,7 @@
     transition: 0.2s;
     transition-delay: 1s;
   }
+
   .Title:has(+ .Button:hover) {
     opacity: 1;
     transition-delay: 0s;
@@ -21,12 +24,13 @@
 
   /* Actual Button */
   .Button {
+
     /* Style */
     & {
-      background-color: white;
+      background-color: style.$background-color;
       border: double;
       border-radius: 50%;
-      color: black;
+      color: style.$color;
 
       width: 2.4rem;
       height: 2.4rem;
@@ -38,7 +42,7 @@
       max-width: 1.2rem;
       height: auto;
       text-align: center;
-       margin: auto;
+      margin: auto;
     }
 
     /* Hover Animation */
@@ -47,9 +51,9 @@
       transition: 0.2s;
 
       &:hover {
-          opacity: 1.0;
-          transition: 0.2s;
-          cursor: pointer;
+        opacity: 1.0;
+        transition: 0.2s;
+        cursor: pointer;
       }
     }
   }
