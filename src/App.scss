@@ -27,7 +27,6 @@
 
   /* Columns */
   .Words {
-    margin: 0;
     column-count: 3;
     column-gap: 2rem;
     column-fill: balance;
@@ -35,6 +34,10 @@
     max-width: style.$large;
     margin: auto;
     min-height: 100%;
+
+    @media screen and (max-width: calc(style.$large + 3rem)) {
+      padding-right: 3rem;
+    }
 
     @media screen and (max-width: style.$medium) {
       column-count: 2;
