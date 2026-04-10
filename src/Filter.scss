@@ -1,7 +1,11 @@
+@use 'style.scss';
+
 .Filter {
   /* Place at The Top and On Top */
   width: calc(100% - 2rem);
-  background-color: white;
+
+  background-color: style.$background-color;
+  color: style.$color;
 
   position: fixed;
   left: 1rem;
@@ -15,12 +19,12 @@
     justify-content: center;
 
     /* Fix for Tiny Screens (Issue #34) */
-    @media screen and (max-width: 25rem) {
+    @media screen and (max-width: style.$tiny) {
       flex-flow: column;
     }
 
     /* Fix width of input and select are not fixed (Follow-up on #34) */
-    @media screen and (min-width: 25rem) {
+    @media screen and (min-width: style.$tiny) {
       max-width: 42rem;
 
       input {
@@ -36,10 +40,13 @@
     select {
       margin: 0.2rem;
 
-      background-color: white;
       border-radius: 0.3rem;
-      border: 0.1rem solid black;
+      border: 0.1rem solid;
       padding: 0.3rem 0.5rem;
+
+      background-color: style.$background-color;
+      border-color: style.$color;
+      color: style.$color;
     }
 
     input:hover {
@@ -51,7 +58,7 @@
     }
   }
 
-  /* Seperator beneath */
+  /* Separator beneath */
   .Separator {
     margin: 1rem 0 0.1rem 0;
     border-bottom: double;
