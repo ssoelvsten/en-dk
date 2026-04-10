@@ -25,6 +25,10 @@
   .Phrases {
     margin-top: 0.1rem;
 
+    &>div {
+      display: inline;
+    }
+
     .English {
       display: contents;
       padding-right: 0.4rem;
