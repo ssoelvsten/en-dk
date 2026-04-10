@@ -70,3 +70,10 @@
     color: style.$dark-color;
   }
 }
+
+@media print {
+  .App {
+    background-color: white;
+    color: black;
+  }
+}
