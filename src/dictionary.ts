@@ -1295,6 +1295,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science", "mathematics"]
   },
   {
+    word: "environment",
+    type: "sb.",
+    translations: ["miljø, -et, -er, -erne"],
+    keywords: ["computer science", "software engineering"]
+  },
+  {
     word: "epsilon",
     note: "Ε ε",
     translations: ["epsilon"],
