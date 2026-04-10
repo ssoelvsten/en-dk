@@ -2,8 +2,8 @@
 @use './style.scss';
 
 .App {
-  background-color: style.$background-color;
-  color: style.$color;
+  background-color: style.$light-background;
+  color: style.$light-color;
 
   box-sizing: border-box;
   width: 100%;
@@ -66,7 +66,7 @@
 
 @media only screen {
   .App.DarkMode {
-    background-color: color.invert(style.$background-color);
-    color: color.invert(style.$color)
+    background-color: style.$dark-background;
+    color: style.$dark-color;
   }
 }

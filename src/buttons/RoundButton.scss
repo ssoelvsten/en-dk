@@ -13,7 +13,7 @@
     text-align: right;
     font-size: 1rem;
     user-select: none;
-    color: style.$color;
+    color: style.$light-color;
 
     opacity: 0;
     transition: 0.2s;
@@ -29,10 +29,10 @@
   .Button {
 
     /* Style */
-    background-color: style.$background-color;
+    background-color: style.$light-background;
     border: double;
     border-radius: 50%;
-    color: style.$color;
+    color: style.$light-color;
 
     width: 2.4rem;
     height: 2.4rem;
@@ -65,11 +65,11 @@
 
 @media only screen {
   .DarkMode .RoundButton {
-    color: color.invert(style.$color);
+    color: style.$dark-color;
 
     .Button {
-      background-color: color.invert(style.$background-color);
-      color: color.invert(style.$color);
+      background-color: style.$dark-background;
+      color: style.$dark-color;
 
       .Icon {
         filter: invert(1);
