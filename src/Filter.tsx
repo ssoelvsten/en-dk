@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as Dictionary from './dictionary.ts';
-import { GetURLParam, SetURLParam, Params } from './url_util.ts'
+import { GetURLParam, SetURLParam } from './url_util.ts'
 
 import './Filter.scss';
 
