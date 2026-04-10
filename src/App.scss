@@ -5,10 +5,16 @@
   color: var(--color);
 
   box-sizing: border-box;
-  width: 100%;
-  height: 100%;
 
-  overflow: scroll;
+  /* Restrict size to screen (with scrolling overflow). Yet, while printing we
+   * don't want to only print the current scrolling position but the entire
+   * page. */
+  @media not print {
+    width: 100%;
+    height: 100%;
+
+    overflow: scroll;
+  }
 
   /* Space for Filter at top */
   & {
