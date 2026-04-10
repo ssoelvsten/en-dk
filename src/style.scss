@@ -1,12 +1,26 @@
-@use 'sass:color';
-
 $tiny: 25rem;
 $small: 42rem;
 $medium: 55rem;
 $large: 64rem;
 
-$light-background: #fff;
-$light-color: #202020;
+@media only screen {
+    .App {
+        --background-color: #ffffff;
+        --color: #202020;
+        --filter: invert(0);
+    }
 
-$dark-background: #202020;
-$dark-color: #e0e0e0;
+    .App.DarkMode {
+        --background-color: #202020;
+        --color: #e0e0e0;
+        --filter: invert(1)
+    }
+}
+
+@media only print {
+    .App {
+        --background-color: #ffffff;
+        --color: #000000;
+        --filter: invert(0)
+    }
+}

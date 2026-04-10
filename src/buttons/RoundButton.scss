@@ -1,6 +1,3 @@
-@use 'sass:color';
-@use '../style.scss';
-
 .RoundButton {
 
   /* Hover Help Text */
@@ -13,7 +10,7 @@
     text-align: right;
     font-size: 1rem;
     user-select: none;
-    color: style.$light-color;
+    color: var(--color);
 
     opacity: 0;
     transition: 0.2s;
@@ -29,10 +26,10 @@
   .Button {
 
     /* Style */
-    background-color: style.$light-background;
+    background-color: var(--background-color);
     border: double;
     border-radius: 50%;
-    color: style.$light-color;
+    color: var(--color);
 
     width: 2.4rem;
     height: 2.4rem;
@@ -44,6 +41,7 @@
       height: auto;
       text-align: center;
       margin: auto;
+      filter: var(--filter);
     }
 
     /* Hover Animation */
@@ -60,20 +58,5 @@
   /* Hide on Print */
   @media print {
     display: none !important;
-  }
-}
-
-@media only screen {
-  .DarkMode .RoundButton {
-    color: style.$dark-color;
-
-    .Button {
-      background-color: style.$dark-background;
-      color: style.$dark-color;
-
-      .Icon {
-        filter: invert(1);
-      }
-    }
   }
 }

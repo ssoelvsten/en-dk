@@ -1,12 +1,11 @@
-@use 'sass:color';
 @use './style.scss';
 
 .Filter {
   /* Place at The Top and On Top */
   width: calc(100% - 2rem);
 
-  background-color: style.$light-background;
-  color: style.$light-color;
+  background-color: var(--background-color);
+  color: var(--color);
 
   position: fixed;
   left: 1rem;
@@ -45,9 +44,9 @@
       border: 0.1rem solid;
       padding: 0.3rem 0.5rem;
 
-      background-color: style.$light-background;
-      border-color: style.$light-color;
-      color: style.$light-color;
+      background-color: var(--background-color);
+      border-color: var(--color);
+      color: var(--color);
     }
 
     input:hover {
@@ -68,19 +67,5 @@
   /* Hide when printing the page. */
   @media print {
     display: none !important;
-  }
-}
-
-@media only screen {
-  .DarkMode .Filter {
-    background-color: style.$dark-background;
-    color: style.$dark-color;
-
-    .Inputs input,
-    .Inputs select {
-      background-color: style.$dark-background;
-      border-color: style.$dark-color;
-      color: style.$dark-color;
-    }
   }
 }
