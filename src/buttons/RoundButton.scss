@@ -63,15 +63,17 @@
   }
 }
 
-.DarkMode .RoundButton {
-  color: color.invert(style.$color);
-
-  .Button {
-    background-color: color.invert(style.$background-color);
+@media only screen {
+  .DarkMode .RoundButton {
     color: color.invert(style.$color);
 
-    .Icon {
-      filter: invert(1);
+    .Button {
+      background-color: color.invert(style.$background-color);
+      color: color.invert(style.$color);
+
+      .Icon {
+        filter: invert(1);
+      }
     }
   }
 }

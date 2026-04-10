@@ -64,7 +64,9 @@
   }
 }
 
-.App.DarkMode {
-  background-color: color.invert(style.$background-color);
-  color: color.invert(style.$color)
+@media only screen {
+  .App.DarkMode {
+    background-color: color.invert(style.$background-color);
+    color: color.invert(style.$color)
+  }
 }

@@ -71,14 +71,16 @@
   }
 }
 
-.DarkMode .Filter {
-  background-color: color.invert(style.$background-color);
-  color: color.invert(style.$color);
-
-  .Inputs input,
-  .Inputs select {
+@media only screen {
+  .DarkMode .Filter {
     background-color: color.invert(style.$background-color);
-    border-color: color.invert(style.$color);
     color: color.invert(style.$color);
+
+    .Inputs input,
+    .Inputs select {
+      background-color: color.invert(style.$background-color);
+      border-color: color.invert(style.$color);
+      color: color.invert(style.$color);
+    }
   }
 }
