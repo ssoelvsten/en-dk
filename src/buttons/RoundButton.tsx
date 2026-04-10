@@ -11,7 +11,7 @@ const RoundButton = ({ onClick, icon, title }: RoundButtonProps) =>
   <div className="RoundButton">
     <span className="Title">{title}</span>
     <button className="Button" onClick={onClick}>
-      <img class="Icon" src={icon} alt="" />
+      <img className="Icon" src={icon} alt="" />
     </button>
   </div>;
 
