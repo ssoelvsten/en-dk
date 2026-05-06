@@ -411,6 +411,7 @@ export const en_dk : Lexeme[] = [
     translations: [
       "tuborgklamme, -n, -r, -rne",
       "kap|sel, -slen, -sler, -slerne",
+      "Akkolade, -n, -r, -rne",
       "en krøllet parentes, den krøllede parentes, de krøllede parenteser",
     ],
     keywords: ["typography"]
@@ -889,6 +890,12 @@ export const en_dk : Lexeme[] = [
         "nummera|bel, -belt, -ble"
     ],
     keywords: ["computer science", "mathematics"]
+  },
+  {
+    word: "crash",
+    type: "sb.",
+    translations: ["nedbrud, -et, -, -ene"],
+    keywords: ["computer science"]
   },
   {
     word: "cryptography",
