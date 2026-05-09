@@ -1368,7 +1368,7 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science", "software engineering"],
     phrases: [
       ["an exception was thrown", "en undtagelse blev kastet"],
-      ["exceptions are exceptional", "undtagelser er kun undtgelsesvis"]
+      ["exceptions are exceptional", "undtagelser er kun undtagelsesvis"]
     ]
   },
   {
