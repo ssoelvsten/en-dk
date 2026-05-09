@@ -2010,7 +2010,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "local",
     type: "adj.",
-    translations: ["local, -t, -e"],
+    translations: ["lokal, -t, -e"],
     keywords: ["computer science", "software engineering"]
   },
   {
