@@ -2282,6 +2282,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "NP-hard",
+    type: "adj.",
+    translations: ["NP-svær, -t, -e"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "NP-complete",
+    type: "adj.",
+    translations: ["NP-komplet, -, -te"],
+    keywords: ["computer science"]
+  },
+  {
     word: "nu",
     note: "Ν ν",
     translations: ["ny"],
