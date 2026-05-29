@@ -726,7 +726,10 @@ export const en_dk : Lexeme[] = [
     word: "complete",
     type: "adj.",
     translations: ["fuldstændig, -t, -e"],
-    keywords: ["computer science"]
+    keywords: ["computer science"],
+    phrases: [
+      ["NP-complete", "NP-fuldstændig"]
+    ]
   },
   {
     word: "completeness",
