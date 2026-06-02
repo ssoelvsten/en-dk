@@ -3688,6 +3688,15 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "upload",
+    type: "vb.",
+    translations: [
+      "overfør|e, -er, -te",
+      "opsend|e, -er, -te"
+    ],
+    keywords: ["computer science"]
+  },
+  {
     word: "upsilon",
     note: "Υ υ",
     translations: ["ypsilon"],
