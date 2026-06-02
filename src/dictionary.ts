@@ -1218,6 +1218,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "download",
+    type: "vb.",
+    translations: ["hente| ned, -r ned, -de ned, -t ned"],
+    keywords: ["computer science"]
+  },
+  {
     word: "duplicate",
     type: "vb.",
     translations: [
