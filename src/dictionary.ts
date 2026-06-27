@@ -1452,6 +1452,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["mathematics"]
   },
   {
+    word: "firewall",
+    type: "sb.",
+    translations: ["brandmur, -en, -er, -erne"],
+    keywords: ["computer science"]
+  },
+  {
     word: "fixpoint",
     type: "sb.",
     translations: ["fixpunkt, -et, -er, -erne"],
@@ -2259,6 +2265,25 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "network",
+    type: "sb.",
+    translations: [
+      "netværk, -et, -, -ene",
+      "net, -et, -, -ene"
+    ],
+    keywords: ["computer science"]
+  },
+  {
+    word: "network interface controller",
+    note: "NIC",
+    type: "sb.",
+    translations: [
+      "netværkskort, -et, -, -ene",
+      "netkort, -et, -, -ene"
+    ],
+    keywords: ["computer science"]
+  },
+  {
     word: "node",
     type: "sb.",
     translations: ["knude, -n, -r, -rne"],
@@ -2411,6 +2436,18 @@ export const en_dk : Lexeme[] = [
       "overhead, -et, -s, -ene ",
       "fast omkostning, faste omkostning, faste omkostninger"
     ],
+    keywords: ["computer science"]
+  },
+  {
+    word: "package",
+    type: "sb.",
+    translations: ["pakke, -n, -r, -rne"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "package filter",
+    type: "sb.",
+    translations: ["pakkefil|ter, -teret, -tre, -trene"],
     keywords: ["computer science"]
   },
   {
@@ -2700,6 +2737,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["egenskab, -en, -er, -erne"],
     keywords: ["computer science", "mathematics"]
+  },
+  {
+    word: "protocol",
+    type: "sb.",
+    translations: ["protokol, -len, -ler, -lerne"],
+    keywords: ["computer science"]
   },
   {
     word: "psi",
