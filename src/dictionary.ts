@@ -1561,6 +1561,37 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "handle",
+    type: "vb.",
+    translations: ["håndtere, -r, -de, -t"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "handler",
+    type: "sb.",
+    note: "use \"handling\" if possible",
+    translations: ["håndterer, -en, -e, -ne"],
+    keywords: ["computer science"],
+    phrases: [
+      [
+        "When an exception is thrown, then it can be caught by an exception handler",
+        "Når en undtagelse er kastet, så kan den fanges af en undtagelseshåndterer"
+      ]
+    ]
+  },
+  {
+      word: "handling",
+      type: "sb.",
+      translations: ["håndtering, -en, -er, -erne"],
+      keywords: ["computer science"],
+      phrases: [
+        [
+          "Unlike exception handling, an effect handler can choose to resume the computation",
+          "Modsat undtagelseshåndtering kan en effekthåndterer vælge at fortsætte beregningen"
+        ]
+      ]
+  },
+  {
     word: "hard",
     type: "adj.",
     translations: [
